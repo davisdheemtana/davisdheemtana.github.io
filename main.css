@@ -1,0 +1,263 @@
+html {
+    background: url(https://scontent.fsnc1-5.fna.fbcdn.net/t31.0-8/12957468_509045825887156_6238642585422360721_o.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.leftcol {
+    width: auto;
+    height: auto;
+    float: left;
+    position: relative;
+    top: 50px;
+    color: white;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    padding-left: 100px;
+    padding-top: 0px;
+}
+
+.frost {
+    /*margin: 40px; */
+    margin-left: 40px;
+    margin-right: 40px;
+    background: rgba(255,255,255,.65);
+    filter: alpha(opacity=65);
+    For IE8 and earlier;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+
+.imgWrap {
+    
+    display: inline-block;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+}
+
+.imgWrap img {
+    
+    height: 300px;
+    width: 300px;
+}
+
+.boardMember {
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.6);
+    color: rgb(255, 255, 255);
+    opacity: 1; 
+    
+    font-family: 'GermanoRegular'; 
+    font-size: 20px;
+    font-weight: normal; 
+    font-style: normal; 
+    letter-spacing: 1.5px;
+
+
+    visibility: hidden;
+    
+}
+
+.imgWrap:hover .boardMember {
+   
+    visibility: visible;
+    opacity: 1;
+}
+
+.ddtAbout img {
+    width: 20%;
+    height: auto;
+    float: right;
+    padding-right: 10px;
+    margin: 0px;
+}
+
+.visionsAbout img {
+    width: 15%;
+    padding-right: 10px;
+    margin: 0px;
+    height: auto;
+    float: left;
+    
+}
+
+.mainText {
+    color: rgb(140, 4, 4);
+    font-size: 25px;
+}
+
+.group {
+    margin-top: 60px;
+    padding-top: 10px;
+    border: 0px;
+    padding: 0px;
+}
+
+.group img{
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie */
+    position: relative;
+}
+
+.group h2 {
+    position: absolute;
+    top: 350px;
+    text-align: center;
+    left: 475px;
+    color: white;
+    opacity: 0.7;
+    
+}
+
+.group h2 span {
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 20px; 
+    
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+p { 
+    font-family: 'GermanoRegular'; 
+    font-size: 20px;
+    font-weight: normal; 
+    font-style: normal; 
+    color: rgb(0, 0, 0);
+    
+}
+
+h2 {
+    /*margin: 10% 10% 5%; */
+    font-family: "Petit Formal Script", Georgia, "Times New Roman", serif;
+    font-weight: 900;
+    font-size: 2.3em;
+    color:#002266;        
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin:0;
+    padding:0;
+    position: fixed;
+    background: rgb(255, 255, 255);
+    width: 100%;
+}
+
+li {
+    float: left;
+    margin: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    font-size: 18px; 
+}
+
+li a {
+    display: block;
+    color: black;
+    font-family: "Petit Formal Script", Georgia, "Times New Roman", serif;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px 12px;
+    text-decoration: none;
+ }
+
+#mainImages {
+    text-align: center;
+}
+
+#topLeft {
+    height:250px;
+    width:250px;
+    margin:0;
+    padding:0;
+
+}
+#topRight {
+    height:250px;
+    width:250px;
+    margin:0;
+    padding:0;
+}
+#bottomLeft {
+    height:250px;
+    width:250px;
+    margin:0;
+    padding:0;
+}
+#bottomRight {
+    height:250px;
+    width:250px;
+    margin:0;
+    padding:0;
+}
+#topLeft:hover {
+    content: url(http://i.imgur.com/TZKvOib.gif);
+    height:250px;
+    width:250px;
+    margin:0;
+    padding:0;
+}
+#topRight:hover {
+    content: url(http://i.imgur.com/RkeHIpO.gif);
+    height:250px;
+    width:250px;
+    margin:0;
+    padding:0;
+}
+#bottomLeft:hover {
+    content: url(http://i.imgur.com/HiuGjVp.gif);
+    height:250px;
+    width:250px;
+    margin:0;
+    padding:0;
+}
+#bottomRight:hover {
+    content: url(http://i.imgur.com/gNSJhjx.png);
+    height:250px;
+    width:250px;
+    margin:0;
+    padding:0;
+}
+
+#nav {
+    -webkit-box-shadow: 0px 4px 34px -5px rgba(0,0,0,0.42);
+    -moz-box-shadow: 0px 4px 34px -5px rgba(0,0,0,0.42);
+    box-shadow: 0px 4px 34px -5px rgba(0,0,0,0.42);
+    
+    top: 0px;
+   /* border-bottom-style: solid;
+    border-bottom-color: rgb(0,0,0);
+    border-bottom-width: thin; */
+    padding: 5px;
+}
+
+#pastEvent {
+    height: 500px;
+    width: auto; 
+}
+
+.mySlides {
+    height: 100%;
+    width: auto;
+    overflow: hidden;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
