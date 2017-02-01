@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Davis Dheem Tana 2017</title>
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" media="screen" type="text/css" href="style.css">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/petit-formal-script" type="text/css"/>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/germano" type="text/css"/>
+    
+</head>
+<body onkeydown="myFunc(event)">
+    <div class="leftcol">
+
+        <article class="frost">
+           
+            <h2 style="font-family: 'Petit Formal Script', Georgia, 'Times New Roman', serif; font-weight: 900; font-size: 2.3em; color:#002266; padding-top: 50px; padding-bottom: 0px;">Past Events</h2>
+            <p style = "color:#6b0909; font-size:20px;">Check out DDT photos from the previous years!</p>
+            
+            <div class="w3-content w3-display-container">
+              <img class="mySlides" src="https://scontent.xx.fbcdn.net/v/t31.0-8/12970774_509045129220559_3438888935795077409_o.jpg?oh=8999f039a3029afdf51518f04c7cba39&oe=58DDC385" style="width:100%">
+              <img class="mySlides" src="https://scontent.xx.fbcdn.net/v/t31.0-8/12983399_509045149220557_5571516958727140201_o.jpg?oh=b09292c8e98e41fddffe410ddddd1fa0&oe=58E5C454" style="width:100%">
+              <img class="mySlides" src="https://scontent.xx.fbcdn.net/v/t31.0-8/12983287_509045349220537_4448654915349883549_o.jpg?oh=0a084dd3a9d006faec118b99c863617a&oe=592476C8" style="width:100%">
+              <img class="mySlides" src="https://scontent.xx.fbcdn.net/v/t31.0-8/12977104_509045382553867_267714949370839032_o.jpg?oh=6a2419cfb5d4b8a6e0aaefbccbd18a00&oe=58E2C621" style="width:100%">
+              <img class="mySlides" src="https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/11050258_416628845128855_1969965209739479360_n.jpg?oh=2393aacf7f175dec630dfbcfa9b2ca91&oe=58F1BAD6" style="width:100%">
+              <img class="mySlides" src="https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/10998005_416627305129009_79332290453568729_n.jpg?oh=5169f6839be13c850472f08ef5f893af&oe=58DE173F" style="width:100%">
+              <img class="mySlides" src="https://scontent-atl3-1.xx.fbcdn.net/v/t31.0-8/12898311_505078036283935_5961037537680903584_o.jpg?oh=3dc1f18f572cdfe365887f6efa11f82b&oe=58F4E69E" style="width:100%">
+              <img class="mySlides" src="https://scontent-atl3-1.xx.fbcdn.net/v/t31.0-8/12916784_505079512950454_1366467037155067039_o.jpg?oh=09cfe4e208e03ad2887e839a430e873a&oe=58EF96CC" style="width:100%">
+              <img class="mySlides" src="https://scontent-atl3-1.xx.fbcdn.net/v/t31.0-8/12891007_505081789616893_5018339645676475644_o.jpg?oh=0c060ff4e77e89ac68d462d627272892&oe=5920C298" style="width:100%">
+              <img class="mySlides" src="https://scontent-atl3-1.xx.fbcdn.net/v/t31.0-8/12909629_505081836283555_5734293770644096361_o.jpg?oh=60f238313391fbce9af59d6bf54d64b9&oe=58F3773B" style="width:100%">
+              <img class="mySlides" src="https://scontent-atl3-1.xx.fbcdn.net/v/t31.0-8/12440611_505083122950093_2162278469582135708_o.jpg?oh=b2b1516a8dde143ab36861e285acd76d&oe=58E7D879" style="width:100%">
+
+              <a class="w3-btn-floating w3-display-left" onclick="plusDivs(-1)" >&#10094;</a>
+              <a class="w3-btn-floating w3-display-right" onclick="plusDivs(1)">&#10095;</a>
+            </div>
+
+        <script>        
+            var slideIndex = 1;
+            showDivs(slideIndex);
+
+            function plusDivs(n) {
+                showDivs(slideIndex += n);
+            }
+
+            function showDivs(n) {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                if (n > x.length) {slideIndex = 1}    
+                if (n < 1) {slideIndex = x.length}
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";  
+                }
+                x[slideIndex-1].style.display = "block";  
+            }
+            
+            function myFunc(event) {
+                if (event.keyCode == 37) {
+                    plusDivs(-1);
+                }
+                
+                if (event.keyCode == 39) {
+                    plusDivs(1);
+                }
+            }
+        </script>
+        
+    </article>
+    </div>
+
+    <ul id="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="about.html">About</a></li>
+        <li><a href="tickets.html">Tickets</a></li>
+        <li><a href="board.html">Meet the Board</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="pastEvents.html">Past Events</a></li>
+    </ul>
+
+
+</body>
+
+</html>
